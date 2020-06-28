@@ -466,7 +466,7 @@ public class Cart extends javax.swing.JFrame {
                 return;
             }
         }
-        JOptionPane.showMessageDialog(search,"Not Found!!!","Search Food",2);
+        JOptionPane.showMessageDialog(search,"Not Found!!!","Search Product",2);
     }//GEN-LAST:event_searchActionPerformed
 
     private void produActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_produActionPerformed
