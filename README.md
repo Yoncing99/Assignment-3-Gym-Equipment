@@ -41,25 +41,25 @@ https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/Output-A3.pd
 
 ## Input file
 a - Treadmill info<br/>
-https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/a.txt
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/a.txt<br/>
 b - Stationary info<br/>
-https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/b.txt
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/b.txt<br/>
 c - Incline Bench Press info<br/>
-https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/c.txt
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/c.txt<br/>
 d - Dumbbells Set info<br/>
-https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/d.txt
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/d.txt<br/>
 e - Barbells Set info<br/>
 https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/input%20file/e.txt
 
 ## Output file
 1 - output file of a<br/>
-https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/1.txt
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/1.txt<br/>
 2 - output file of b<br/>
-https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/2.txt
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/2.txt<br/>
 3 - output file of c<br/>
-https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/3.txt
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/3.txt<br/>
 4 - output file of d<br/>
-https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/4.txt
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/4.txt<br/>
 5 - output file of e<br/>
 https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/5.txt
 
