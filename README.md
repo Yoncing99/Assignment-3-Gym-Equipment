@@ -1,13 +1,14 @@
 ## Gym Equipment
-Due to the outbreak of covid-19, I have focused on the idea of online shopping that available for purchase gym equipment.
-I have done a online shopping something like Shopee so that people can shop conveniently and safely.
-This online shopping need user to log in and fill in the register form before shopping. At the end, system will give u a receipt.
-I have used both the registration form and the purchase form to be output files for record purposes such as customer information and shopping receipts.
-I also used introduction of gym equipment as an input file to display five different gym equipment for customer.
+Due to the outbreak of covid-19, I have focused on the idea of online shopping that available for purchase gym equipment.<br/>
+<br/>
+I have done a online shopping something like Shopee so that people can shop conveniently and safely.<br/>
+This online shopping need user to log in and fill in the register form before shopping. At the end, system will give u a receipt.<br/>
+I have used both the registration form and the purchase form to be output files for record purposes such as customer information and shopping receipts.<br/>
+I also used introduction of gym equipment as an input file to display five different gym equipment for customer.<br/>
 
 ## Frame
-Frame 0: Menu
-
+Frame 0: Menu<br/>
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/Menu.java
 
 Frame 1: My Frame<br/>
 https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/MyFrame.java
