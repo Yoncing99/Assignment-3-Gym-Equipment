@@ -1,0 +1,25 @@
+INTRODUCTION OF GYM EQUIPMENT
+
+~~ Stationary Bicycle ~~
+
+BRAND	 : EXERPEUTIC
+COLOR	 : silver
+PRICE	 : RM 800.00
+PATTERN	 : foldable
+
+~~ INFO ~~
+
+INTRO 	: A device used as bicycle without wheels but has a saddle and pedals.
+FUNCTION	: can help to lose weight and build strength.
+Stationary Bike is suitable for beginners.
+Stationary Bike involves cardiovascular system and the lower body.
+Stationary Bike can display speed, time, mileage, calories burned, and heart rate.
+Stationary Bike has adjustable tension levels, adjustable seat levels and pedal straps.
+Stationary Bike has hand pulse sensors for monitoring target heart rate
+
+~~ WORK OUT STEP ~~
+
+STEP RIGHT PEDAL !
+STEP LEFT PEDAL !
+LEVEL UP !
+LEVEL DOWN !

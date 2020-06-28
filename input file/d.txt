@@ -1,0 +1,24 @@
+~~ DUMBBELLS SET ~~
+
+BRAND	 : BOWFLEX
+COLOR	 : red
+PRICE	 : RM 400.00
+SHAPE	 : roman letters I
+SIZE	 : small
+
+~~ INFO ~~
+
+INTRO 	: A short bar with weights on either side for strengthen their arm muscles.
+FUNCTION	: can help to lose weight and build strength.
+Dumbbells Set is suitable for beginners.
+Dumbbells can be used individually or in pairs
+Dumbbells Set involves strength training and the upper body.
+Dumbbells Set has adjustable dumbbells with differing weights.
+
+~~ WORK OUT STEP ~~
+
+WEIGHT UP !
+LIFT UP !
+LIFT DOWN !
+WEIGHT DOWN !
+

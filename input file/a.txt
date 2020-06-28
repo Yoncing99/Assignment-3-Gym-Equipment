@@ -1,0 +1,23 @@
+~~ TREADMILL ~~
+
+BRAND	 : NORDICTRACK
+COLOR	 : black
+PRICE	 : RM 2000.00
+PATTERN	 : foldable
+
+~~ INFO ~~
+
+INTRO 	: A device with a moving belt for walks, runs while staying in the same place.
+FUNCTION	: can help to lose weight and build strength.
+Treadmill is suitable for beginners.
+Treadmill involves cardiovascular system and the full body.
+Treadmill can display speed, time, mileage, calories burned, and heart rate.
+Treadmill have adjustable incline levels.
+
+~~ WORK OUT STEP ~~
+
+POWER ON !
+POWER OFF !
+SPEED UP !
+SPEED DOWN !
+
