@@ -20,6 +20,7 @@ public class PP extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel2 = new javax.swing.JPanel();
         close = new javax.swing.JLabel();
         reForm = new javax.swing.JLabel();
@@ -96,6 +97,7 @@ public class PP extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 102));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        buttonGroup1.add(TT);
         TT.setFont(new java.awt.Font("Script MT Bold", 1, 18)); // NOI18N
         TT.setText("Treadmill");
         TT.addActionListener(new java.awt.event.ActionListener() {
@@ -105,6 +107,7 @@ public class PP extends javax.swing.JFrame {
         });
         jPanel1.add(TT, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
+        buttonGroup1.add(SS);
         SS.setFont(new java.awt.Font("Script MT Bold", 1, 18)); // NOI18N
         SS.setText("Stationary Bike");
         SS.addActionListener(new java.awt.event.ActionListener() {
@@ -114,6 +117,7 @@ public class PP extends javax.swing.JFrame {
         });
         jPanel1.add(SS, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
 
+        buttonGroup1.add(II);
         II.setFont(new java.awt.Font("Script MT Bold", 1, 18)); // NOI18N
         II.setText("Incline Bench Press");
         II.addActionListener(new java.awt.event.ActionListener() {
@@ -123,6 +127,7 @@ public class PP extends javax.swing.JFrame {
         });
         jPanel1.add(II, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, -1));
 
+        buttonGroup1.add(DD);
         DD.setFont(new java.awt.Font("Script MT Bold", 1, 18)); // NOI18N
         DD.setText("Dumbbell Set");
         DD.addActionListener(new java.awt.event.ActionListener() {
@@ -132,6 +137,7 @@ public class PP extends javax.swing.JFrame {
         });
         jPanel1.add(DD, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 10, -1, -1));
 
+        buttonGroup1.add(BB);
         BB.setFont(new java.awt.Font("Script MT Bold", 1, 18)); // NOI18N
         BB.setText("Barbell Set");
         BB.addActionListener(new java.awt.event.ActionListener() {
@@ -317,35 +323,8 @@ public class PP extends javax.swing.JFrame {
         info.setVisible(true);
     }//GEN-LAST:event_backActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PP.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(PP.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(PP.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(PP.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new PP().setVisible(true);
@@ -360,6 +339,7 @@ public class PP extends javax.swing.JFrame {
     private javax.swing.JRadioButton SS;
     private javax.swing.JRadioButton TT;
     private javax.swing.JButton back;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel close;
     private javax.swing.JTextArea display;
     private javax.swing.JPanel jPanel1;
