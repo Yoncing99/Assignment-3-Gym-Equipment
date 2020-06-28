@@ -535,9 +535,8 @@ public class Cart extends javax.swing.JFrame {
                     for(int i = 0; i < table.getRowCount(); i++){
                         for(int j = 0; j < table.getColumnCount(); j++){
                             bw.write(table.getModel().getValueAt(i, j)+"\t\t\t");
-                    }
-                    bw.write("\n--------------------------------------------------------------------------\n");
-                }
+                        }bw.write("\n--------------------------------------------------------------------------\n");
+                }bw.write("\nTotal: "+ans.getText());
                 bw.close();
                 fw.close();
                 JOptionPane.showMessageDialog(null, "Purchase Successfully !");
@@ -564,7 +563,7 @@ public class Cart extends javax.swing.JFrame {
                     
     }//GEN-LAST:event_buyActionPerformed
 
-    public void getTotal(){
+    public int getTotal(){
         
         int mul =0;
         int sum =0;
@@ -573,6 +572,7 @@ public class Cart extends javax.swing.JFrame {
             sum = sum + mul;
         }
         ans.setText("RM "+Integer.toString(sum));
+        return sum;
     }
     
     public static void main(String args[]) {
