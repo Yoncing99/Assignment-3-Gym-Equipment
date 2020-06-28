@@ -47,4 +47,4 @@ https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/Gymm.java
 
 ## Output
 Output
-
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/Output-A3.pdf
