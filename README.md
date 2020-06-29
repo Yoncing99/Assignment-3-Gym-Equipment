@@ -46,6 +46,9 @@ https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/Cart.java
 Another class: Gymm<br/>
 https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/Gymm.java
 
+Frame 12: Receipt<br/>
+https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/Receipt.java
+
 ## Output
 Output
 https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/Output-A3.pdf
