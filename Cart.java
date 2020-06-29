@@ -20,7 +20,8 @@ public class Cart extends javax.swing.JFrame {
     
     public Cart() {
         initComponents();
-        buy.setVisible(false); 
+        buy.setVisible(false);
+        display.setVisible(false); 
         total.setVisible(false);
         JOptionPane.showMessageDialog(null, "Please enter the product, price and quantity !");
         gy = new ArrayList<>();
@@ -49,7 +50,7 @@ public class Cart extends javax.swing.JFrame {
         add = new javax.swing.JButton();
         delete = new javax.swing.JButton();
         edit = new javax.swing.JButton();
-        display = new javax.swing.JButton();
+        tota = new javax.swing.JButton();
         search = new javax.swing.JButton();
         clear = new javax.swing.JButton();
         buy = new javax.swing.JButton();
@@ -60,6 +61,7 @@ public class Cart extends javax.swing.JFrame {
         total = new javax.swing.JLabel();
         ans = new javax.swing.JLabel();
         purchase = new javax.swing.JTextField();
+        display = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -196,14 +198,14 @@ public class Cart extends javax.swing.JFrame {
         });
         jPanel11.add(edit, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 300, -1, -1));
 
-        display.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
-        display.setText("DISPLAY");
-        display.addActionListener(new java.awt.event.ActionListener() {
+        tota.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
+        tota.setText("TOTAL");
+        tota.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                displayActionPerformed(evt);
+                totaActionPerformed(evt);
             }
         });
-        jPanel11.add(display, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 350, 110, -1));
+        jPanel11.add(tota, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 350, 110, -1));
 
         search.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
         search.setText("SEARCH");
@@ -273,7 +275,7 @@ public class Cart extends javax.swing.JFrame {
         jPanel11.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 110, 550, 270));
 
         produ.setFont(new java.awt.Font("Marcellus SC", 0, 18)); // NOI18N
-        produ.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Treadmill", "Stationary Bike", "Incline Bench Press", "Dumbbell Set", "Barbell Set" }));
+        produ.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Treadmill         .", "Stationary Bike   .", "Incline Bench Press", "Dumbbell Set      .", "Barbell Set       ." }));
         produ.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 produActionPerformed(evt);
@@ -293,7 +295,16 @@ public class Cart extends javax.swing.JFrame {
         purchase.setForeground(new java.awt.Color(255, 0, 0));
         purchase.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         purchase.setBorder(null);
-        jPanel11.add(purchase, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 460, 530, 40));
+        jPanel11.add(purchase, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 460, 420, 40));
+
+        display.setFont(new java.awt.Font("Stencil", 0, 18)); // NOI18N
+        display.setText("DISPLAY");
+        display.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                displayActionPerformed(evt);
+            }
+        });
+        jPanel11.add(display, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 450, 120, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -340,6 +351,7 @@ public class Cart extends javax.swing.JFrame {
         buy.setVisible(false);
         total.setVisible(false);
         ans.setVisible(false);
+        display.setVisible(false);
         
         String pp = produ.getSelectedItem().toString();
         int rr = Integer.parseInt(pric.getText());
@@ -366,6 +378,7 @@ public class Cart extends javax.swing.JFrame {
         buy.setVisible(false);
         total.setVisible(false);
         ans.setVisible(false);
+        display.setVisible(false);
         
         if(table.getSelectedRow() == -1){
             if(table.getRowCount() == 0){
@@ -396,6 +409,7 @@ public class Cart extends javax.swing.JFrame {
         buy.setVisible(false);
         total.setVisible(false);
         ans.setVisible(false);
+        display.setVisible(false);
         
         if(table.getSelectedRow() == -1){
             if(table.getRowCount() == 0){
@@ -437,6 +451,7 @@ public class Cart extends javax.swing.JFrame {
         buy.setVisible(false);
         total.setVisible(false);
         ans.setVisible(false);
+        display.setVisible(false);
         
         int move = dtm.getRowCount();
         for(int i = move - 1; i>=0; i--){
@@ -450,6 +465,7 @@ public class Cart extends javax.swing.JFrame {
         buy.setVisible(false);
         total.setVisible(false);
         ans.setVisible(false);
+        display.setVisible(false);
         
         String input = JOptionPane.showInputDialog(this,"Search Product");
         for(int i =0; i< gy.size(); i++){
@@ -499,26 +515,27 @@ public class Cart extends javax.swing.JFrame {
         System.exit(0);
     }//GEN-LAST:event_exitActionPerformed
 
-    private void displayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_displayActionPerformed
+    private void totaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_totaActionPerformed
 
         buy.setVisible(false);
         total.setVisible(false);
         ans.setVisible(false);
+        display.setVisible(false);
         
         total.setVisible(true);
         getTotal();
         buy.setVisible(true);
         ans.setVisible(true);
 
-    }//GEN-LAST:event_displayActionPerformed
+    }//GEN-LAST:event_totaActionPerformed
 
     private void buyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buyActionPerformed
         String bu = evt.getActionCommand();
         if("BUY".equals(bu)){
             if(evt.getSource()==buy){ 
                 FileWriter fw = null;
-                String fileContent = "MY SHOPPING CART\n";  
-                String cc ="\tPRODUCT\t\t\tPRICE\t\t\tQUANTITY";
+                String fileContent = "\t\t      MY SHOPPING CART\n\n";  
+                String cc ="\tPRODUCT\t\t   PRICE\t                   QUANTITY";
                 try {
                     File file = new File("/Users/Auntie Goh/Desktop/Filetxt/purchasing form.txt");
                     if(!file.exists()){
@@ -528,15 +545,16 @@ public class Cart extends javax.swing.JFrame {
                     BufferedWriter bw = new BufferedWriter(fw);
                     
                     bw.write(fileContent);
-                    bw.write("\n--------------------------------------------------------------------------\n");
+                    bw.write("\n     ********************************************************************************\n");
                     bw.write(cc);
-                    bw.write("\n--------------------------------------------------------------------------\n");
+                    bw.write("\n     ********************************************************************************\n");
        
                     for(int i = 0; i < table.getRowCount(); i++){
                         for(int j = 0; j < table.getColumnCount(); j++){
-                            bw.write(table.getModel().getValueAt(i, j)+"\t\t\t");
-                        }bw.write("\n--------------------------------------------------------------------------\n");
-                }bw.write("\nTotal: "+ans.getText());
+                            bw.write("     ");
+                            bw.write(table.getModel().getValueAt(i, j)+"\t\t");
+                        }bw.write("\n     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
+                }bw.write("\n     Total: "+ans.getText());
                 bw.close();
                 fw.close();
                 JOptionPane.showMessageDialog(null, "Purchase Successfully !");
@@ -557,11 +575,18 @@ public class Cart extends javax.swing.JFrame {
             buy.setVisible(false);
             total.setVisible(false);
             ans.setVisible(false);
+            display.setVisible(true);
         }
         
         
                     
     }//GEN-LAST:event_buyActionPerformed
+
+    private void displayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_displayActionPerformed
+        this.setVisible(false);
+        Receipt info = new Receipt();
+        info.setVisible(true);
+    }//GEN-LAST:event_displayActionPerformed
 
     public int getTotal(){
         
@@ -611,6 +636,7 @@ public class Cart extends javax.swing.JFrame {
     private javax.swing.JLabel reForm4;
     private javax.swing.JButton search;
     private javax.swing.JTable table;
+    private javax.swing.JButton tota;
     private javax.swing.JLabel total;
     // End of variables declaration//GEN-END:variables
 }
