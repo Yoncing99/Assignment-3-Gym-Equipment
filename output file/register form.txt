@@ -2,8 +2,8 @@
 Last Name	: Goh
 First Name	: Yon Cing
 Full Name	: Goh Yon Cing
-Gender	  : Female
+Gender	    : Female
 Birth Date	: 29-03-1999
 Phone No	: 011-20768009
-Email	  : yoncing1999@gmail.com
-Address	: 262, Mukim 9, Kampung Liat 14000 BM
+Email	    : yoncing1999@gmail.com
+Address	    : 262, Mukim 9, Kampung Liat 14000 BM
