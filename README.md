@@ -77,6 +77,10 @@ https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20fil
 5 - output file of e<br/>
 https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/5.txt
 
+## Input and Output file
+input file  = frame 12: receipt.<br/>
+output file = frame  2: register and frame 11: cart.<br/>
+
 register form of customer<br/>
 https://github.com/Yoncing99/Assignment-3-Gym-Equipment/blob/master/output%20file/register%20form.txt
 
